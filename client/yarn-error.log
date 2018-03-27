@@ -1,0 +1,52 @@
+Arguments: 
+  /home/thinksysuser/.nvm/versions/node/v6.11.4/bin/node /home/thinksysuser/.nvm/versions/node/v6.11.4/bin/yarn start
+
+PATH: 
+  /home/thinksysuser/js practice/mern-crud/node_modules/.bin:/home/thinksysuser/.config/yarn/link/node_modules/.bin:/home/thinksysuser/js practice/mern-crud/node_modules/.bin:/home/thinksysuser/.config/yarn/link/node_modules/.bin:/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/bin/node-gyp-bin:/home/thinksysuser/js practice/mern-crud/node_modules/.bin:/home/thinksysuser/.config/yarn/link/node_modules/.bin:/home/thinksysuser/js practice/mern-crud/node_modules/.bin:/home/thinksysuser/.config/yarn/link/node_modules/.bin:/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/bin/node-gyp-bin:/home/thinksysuser/.yarn/bin:/home/thinksysuser/repo/workmarket/flyway-4.2.0:/home/thinksysuser/.yarn/bin:/home/thinksysuser/.nvm/versions/node/v6.11.4/bin:/home/thinksysuser/repo/workmarket/flyway-4.2.0:/home/thinksysuser/bin:/home/thinksysuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-7-openjdk-amd64/jre:/home/thinksysuser/repo/flyway-4.2.0:/home/thinksysuser/.rvm/bin:/usr/local/go/bin:/home/thinksysuser/.rvm/bin:/home/thinksysuser/.rvm/bin
+
+Yarn version: 
+  0.23.4
+
+Node version: 
+  6.11.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "mern-crud",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0",
+      "react-scripts": "1.1.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "proxy": "http://localhost:5000/"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  TypeError: Cannot create property '-registry-yarnpkg-com-' on string '{"-registry-yarnpkg-com-":true,"-registry-yarnpkg-com":true}'
+      at set (/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/node_modules/object-path/index.js:110:28)
+      at set (/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/node_modules/object-path/index.js:124:14)
+      at set (/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/node_modules/object-path/index.js:104:16)
+      at Function.objectPath.set (/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/node_modules/object-path/index.js:157:14)
+      at NpmRegistry.mergeEnv (/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/lib/registries/base-registry.js:152:18)
+      at /home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/lib/registries/npm-registry.js:178:14
+      at next (native)
+      at step (/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:35:14
+      at Promise.F (/home/thinksysuser/.nvm/versions/node/v6.11.4/lib/node_modules/yarn/node_modules/core-js/library/modules/_export.js:35:28)
